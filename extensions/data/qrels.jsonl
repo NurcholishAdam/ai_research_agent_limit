@@ -1,0 +1,29 @@
+{"query_id": "q1", "doc_id": "d1", "relevance": 2, "reasoning": "Direct match: Alice likes apples, document about Alice's apple farm"}
+{"query_id": "q1", "doc_id": "d3", "relevance": 2, "reasoning": "Direct match: Document describes Alice who likes apples"}
+{"query_id": "q1", "doc_id": "d4", "relevance": 2, "reasoning": "Direct match: Bob likes apples"}
+{"query_id": "q1", "doc_id": "d10", "relevance": 1, "reasoning": "Indirect match: Mentions Alice who likes apples"}
+{"query_id": "q2", "doc_id": "d2", "relevance": 2, "reasoning": "Direct match: Oranges contain vitamin C"}
+{"query_id": "q2", "doc_id": "d5", "relevance": 2, "reasoning": "Direct match: Citrus fruits contain vitamin C"}
+{"query_id": "q2", "doc_id": "d8", "relevance": 1, "reasoning": "Indirect match: Fruits contain vitamins"}
+{"query_id": "q3", "doc_id": "d1", "relevance": 2, "reasoning": "Direct match: Alice's farm location"}
+{"query_id": "q3", "doc_id": "d6", "relevance": 2, "reasoning": "Direct match: Charlie's farm location"}
+{"query_id": "q3", "doc_id": "d12", "relevance": 1, "reasoning": "Indirect match: Local farms mentioned"}
+{"query_id": "q4", "doc_id": "d7", "relevance": 2, "reasoning": "Direct match: Document about farming techniques"}
+{"query_id": "q4", "doc_id": "d1", "relevance": 1, "reasoning": "Indirect match: Mentions farming practices"}
+{"query_id": "q4", "doc_id": "d10", "relevance": 1, "reasoning": "Indirect match: Organic farming techniques"}
+{"query_id": "q5", "doc_id": "d9", "relevance": 2, "reasoning": "Direct match: Sarah owns red car"}
+{"query_id": "q6", "doc_id": "d4", "relevance": 2, "reasoning": "Multi-hop: Bob likes oranges, oranges are citrus"}
+{"query_id": "q6", "doc_id": "d2", "relevance": 1, "reasoning": "Indirect: Oranges are citrus fruits"}
+{"query_id": "q6", "doc_id": "d5", "relevance": 1, "reasoning": "Indirect: About citrus fruits"}
+{"query_id": "q7", "doc_id": "d2", "relevance": 2, "reasoning": "Direct match: Oranges provide vitamin C benefits"}
+{"query_id": "q7", "doc_id": "d5", "relevance": 2, "reasoning": "Direct match: Citrus health benefits"}
+{"query_id": "q7", "doc_id": "d8", "relevance": 1, "reasoning": "Indirect match: General fruit health benefits"}
+{"query_id": "q8", "doc_id": "d1", "relevance": 2, "reasoning": "Direct match: Alice grows organic produce"}
+{"query_id": "q8", "doc_id": "d3", "relevance": 2, "reasoning": "Direct match: Alice's organic farm"}
+{"query_id": "q8", "doc_id": "d10", "relevance": 2, "reasoning": "Direct match: Organic farmers Alice and Charlie"}
+{"query_id": "q9", "doc_id": "d4", "relevance": 2, "reasoning": "Direct match: Bob likes both apples and oranges"}
+{"query_id": "q9", "doc_id": "d11", "relevance": 2, "reasoning": "Direct match: Apples and oranges both processed fruits"}
+{"query_id": "q9", "doc_id": "d8", "relevance": 1, "reasoning": "Indirect match: Both are fruits with health benefits"}
+{"query_id": "q10", "doc_id": "d12", "relevance": 2, "reasoning": "Multi-hop: Farm-to-table connects people near farms"}
+{"query_id": "q10", "doc_id": "d1", "relevance": 1, "reasoning": "Indirect: Alice lives on/near her farm"}
+{"query_id": "q10", "doc_id": "d6", "relevance": 1, "reasoning": "Indirect: Charlie inherited farm property"}

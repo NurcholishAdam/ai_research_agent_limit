@@ -1,0 +1,10 @@
+{"query_id": "q1", "query": "Who likes apples?", "query_type": "entity_relation", "difficulty": "direct", "expected_entities": ["person", "apples"], "expected_relations": ["likes"]}
+{"query_id": "q2", "query": "What contains vitamin C?", "query_type": "property_search", "difficulty": "direct", "expected_entities": ["vitamin_c"], "expected_relations": ["contains"]}
+{"query_id": "q3", "query": "Where is the farm located?", "query_type": "location_query", "difficulty": "direct", "expected_entities": ["farm"], "expected_relations": ["located_in"]}
+{"query_id": "q4", "query": "Which documents discuss farming techniques?", "query_type": "document_search", "difficulty": "indirect", "expected_entities": ["farming", "techniques"], "expected_relations": ["discusses"]}
+{"query_id": "q5", "query": "Who owns the red car?", "query_type": "entity_relation", "difficulty": "multi_hop", "expected_entities": ["person", "car"], "expected_relations": ["owns", "color"]}
+{"query_id": "q6", "query": "Find people who like citrus fruits", "query_type": "inference_query", "difficulty": "multi_hop", "expected_entities": ["person", "citrus"], "expected_relations": ["likes", "part_of"]}
+{"query_id": "q7", "query": "What health benefits do oranges provide?", "query_type": "property_chain", "difficulty": "indirect", "expected_entities": ["oranges", "health"], "expected_relations": ["provides", "benefits"]}
+{"query_id": "q8", "query": "Which farmers grow organic produce?", "query_type": "entity_filter", "difficulty": "multi_hop", "expected_entities": ["farmer", "organic", "produce"], "expected_relations": ["grows", "type_of"]}
+{"query_id": "q9", "query": "How are apples and oranges related?", "query_type": "relation_discovery", "difficulty": "indirect", "expected_entities": ["apples", "oranges"], "expected_relations": ["part_of", "similar_to"]}
+{"query_id": "q10", "query": "Find documents about people who live near farms", "query_type": "complex_spatial", "difficulty": "multi_hop", "expected_entities": ["person", "farm"], "expected_relations": ["lives_near", "located_in"]}
