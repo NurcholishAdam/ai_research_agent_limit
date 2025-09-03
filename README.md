@@ -131,6 +131,11 @@ LIMIT Dataset → Graph Construction → Query Processing → Reasoning & Fusion
 - **Dashboard Views**: Add new visualizations
 - **Evaluation Metrics**: Add new performance measures
 
+## 📊 Leaderboard Table 
+<img width="701" height="250" alt="LIMIT-GRAPH RESULT" src="https://github.com/user-attachments/assets/372635ab-d581-4396-959e-9b66528d7633" />
+
+<img width="544" height="167" alt="LIMIT-GRAPH Leaderboard" src="https://github.com/user-attachments/assets/8cda8fd8-f8f9-4f16-bbbd-68808faad975" />
+
 ## Documentation
 
 - 📖 **Quick Start**: `QUICK_START_GUIDE.md`
